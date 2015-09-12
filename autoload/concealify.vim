@@ -7,7 +7,7 @@ function! concealify#concealify(type_name, new_type, keyword, u_char)
     endif
 
     " Conceal 'function' with a lambda character
-    execute "syntax keyword " a:new_type a:keyword " conceal cchar=" a:u_char
+    execute "syntax keyword " a:new_type a:keyword "conceal cchar="a:u_char
 
     " Link up syntax
     execute "hi link " a:new_type a:type_name
@@ -22,7 +22,7 @@ function! concealify#concealify_match(type_name, new_type, pattern, u_char)
     endif
 
     " Conceal 'function' with a lambda character
-    execute "syntax match " a:new_type a:pattern "conceal cchar=" a:u_char
+    execute "syntax match " a:new_type a:pattern "conceal cchar="a:u_char
 
     " Link up syntax
     execute "hi link " a:new_type a:type_name

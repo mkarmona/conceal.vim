@@ -1,2 +1,2 @@
-call concealify#concealify("Statement", "pyneworstatement", "\<or\>", "∪")
+call concealify#concealify("Statement", "pyneworstatement", "or", "\u2228")
 
