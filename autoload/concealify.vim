@@ -1,6 +1,6 @@
 " thanks to lambdify vim plugin. it's a good point to start with
 
-function! vimconcealify#concealify(type_name, new_type, keyword, u_char)
+function! concealify#concealify(type_name, new_type, keyword, u_char)
     " Conceal feature required to continue (vim ≥ 7.3)
     if !has('conceal')
         finish
@@ -15,7 +15,7 @@ function! vimconcealify#concealify(type_name, new_type, keyword, u_char)
 
 endf
 
-function! vimconcealify#concealify_match(type_name, new_type, pattern, u_char)
+function! concealify#concealify_match(type_name, new_type, pattern, u_char)
     " Conceal feature required to continue (vim ≥ 7.3)
     if !has('conceal')
         finish
