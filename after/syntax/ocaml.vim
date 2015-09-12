@@ -31,4 +31,6 @@ syntax match ocamlNiceOperator "\<for_all\>" conceal cchar=∀
 
 hi link ocamlNiceOperator Operator
 hi! link Conceal Operator
-setlocal conceallevel=2
+
+setlocal conceallevel=1
+setlocal concealcursor=cn
