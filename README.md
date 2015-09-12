@@ -1,1 +1,1 @@
-# conceal.vim
+# concealify.vim
