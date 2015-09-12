@@ -1,2 +1,2 @@
-call vimconcealify#concealify("Statement", "pyneworstatement", "\<or\>", "∪")
+call concealify#concealify("Statement", "pyneworstatement", "\<or\>", "∪")
 
